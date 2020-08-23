@@ -39,7 +39,6 @@ public class MaxCounters {
             int slotValue = counters[counterIndex];
 
             if (slotValue < propagatedMaxValue) {
-                counters[counterIndex] = propagatedMaxValue;
                 slotValue = propagatedMaxValue;
             }
 
